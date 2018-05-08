@@ -7,18 +7,14 @@ const linkStyle = {
 const Header = () => (
   <div>
     <ul>
-      <Link href='/'>
-      <a style={linkStyle}>
-        <li> Home </li>
+      <a href='/freshchat' style={linkStyle}>
+        <li> Fresh Chat </li>
       </a>
-      </Link>
-      <Link href='/second'>
-      <a style={linkStyle}>
-        <li> Clientside Routing to Page Second </li>
+      <a href='/innity' style={linkStyle}>
+        <li> Innity </li>
       </a>
-      </Link>
-      <a href='/second' style={linkStyle}>
-        <li> Serverside Routing to Page Second </li>
+      <a href='/synergy' style={linkStyle}>
+        <li> Synergy </li>
       </a>
     </ul>
   </div>
