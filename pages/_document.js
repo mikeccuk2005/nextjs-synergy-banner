@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
         <meta id='vp' name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
         <meta name='theme-color' content='#F05A22' />
         <script src='https://wchat.freshchat.com/js/widget.js'></script>
-        <script type='text/javascript' src='http://cdn.innity.net/admanager.js' />
+        <script type='text/javascript' src='http://cdn.innity.net/admanager.js'></script>
       </Head>
       <body>
         <div className='root' style={{ overflow: 'hidden' }}>
