@@ -9,7 +9,7 @@ const layoutStyle = {
 
 export default () => (
   <div style={layoutStyle}>
-    <h4>Innity Adzone</h4>
+    <h3>Innity Adzone</h3>
     <p>
       Mobile Cards_Spin - Standard Platform : A script on this page.
     </p>
