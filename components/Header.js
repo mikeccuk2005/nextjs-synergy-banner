@@ -13,6 +13,9 @@ const Header = () => (
       <a href='/innity' style={linkStyle}>
         <li> Innity </li>
       </a>
+      <a href='/innityadzone' style={linkStyle}>
+        <li> Innity : Mobile Cards Spin (Ad zone) </li>
+      </a>
       <a href='/synergy' style={linkStyle}>
         <li> Synergy </li>
       </a>
