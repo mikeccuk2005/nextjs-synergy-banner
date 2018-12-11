@@ -1,11 +1,25 @@
 import Layout from '../components/SynergyLayout.js'
+import React from 'react'
 
-export default () => (
-  <Layout>
-    <p>
-      Hello
-    </p>
-    <ins data-unitus-zoneid='12283' data-unitus-id='8996b7f9004e40b2e55b379b5217039e' />
-    <script async src='http://unitus.synergy-e.com/www/delivery/asyncjs.php' />
-  </Layout>
-)
+export default class SynergyIframePage extends React.Component {
+
+  componentDidMount () {
+    this._updateIframe()
+  }
+
+  _updateIframe () {
+    const iframe = this.refs.iframe
+    iframe.src = '/static/bannersynergy.html'
+  }
+
+  render () {
+    return (
+      <Layout>
+        <p>
+          Hello Synergy
+        </p>
+        <iframe ref='iframe' style={{height: '500px', width: '100%' }} />
+      </Layout>
+    )
+  }
+}

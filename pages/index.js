@@ -1,6 +1,6 @@
 // pages/index.js
 
-import Layout from '../components/Layout.js'
+import Layout from '../components/InnityLayout'
 
 export default () => (
   <Layout>

@@ -16,5 +16,6 @@ export default () => (
     <div id='div-ad-innity-67702/0'>
       <script dangerouslySetInnerHTML={{ __html: `innity_adZoneAsync.q.push(function (){innity_adZoneAsync.display("a34e1ddbb4d329167f50992ba59fe45a", "67702", {"target": "div-ad-innity-67702/0"});});`}} n/>
     </div>
+    <ContentPage />
   </div>
 )

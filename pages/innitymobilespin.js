@@ -1,15 +1,6 @@
 import Layout from '../components/InnityLayout.js'
 import React from 'react'
-// export default () => (
-//   <Layout>
-//     <h1>Page G</h1>
-//     <p>
-//       Mobile Cards_Spin / Standard Platform
-//     </p>
-//     {/* <script src='http://network.innity.com/html5/mobile_spin/ad.js'></script> */}
-//     <script type='text/javascript' dangerouslySetInnerHTML={{ __html: `new innity_adZone("a34e1ddbb4d329167f50992ba59fe45a", "67702", {});`}} />
-//   </Layout>
-// )
+import ContentPage from './content.js'
 
 export default class InnityMobileSpinPage extends React.Component {
   componentDidMount () {
@@ -22,10 +13,8 @@ export default class InnityMobileSpinPage extends React.Component {
         <p>
           Mobile Cards_Spin / Standard Platform
         </p>
-        {/* <script src='http://network.innity.com/html5/mobile_spin/ad.js'></script> */}
-        <div id='div-ad-innity-67702/0'>
-          <script dangerouslySetInnerHTML={{ __html: `innity_adZoneAsync.q.push(function (){innity_adZoneAsync.display("a34e1ddbb4d329167f50992ba59fe45a", "67702", {"target": "div-ad-innity-67702/0"});});`}} n/>
-        </div>
+        <script src='http://network.innity.com/html5/mobile_spin/ad.js'></script>
+        <ContentPage />
       </Layout>
     )
   }
