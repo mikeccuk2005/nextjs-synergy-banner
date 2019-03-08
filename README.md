@@ -2,6 +2,6 @@
 ```
 $ npm install
 
-# patch npm package
+# run dev
 $ npm run dev
 ````
